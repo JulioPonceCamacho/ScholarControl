@@ -1,0 +1,214 @@
+--
+-- Table structure for table `Carreras`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE Carreras (
+  ID_Carrera varchar(20) NOT NULL PRIMARY KEY ,
+  NombreCarrera varchar(50) NOT NULL,
+  Semestres int(11) NOT NULL,
+  Materias int(11) NOT NULL,
+  Creditos int(11) NOT NULL,
+  Objetivos varchar(1000) DEFAULT NULL,
+  Institucion varchar(20) NOT NULL);
+
+--
+-- Table structure for table `Direcciones`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE Direcciones (
+  ID_Direccion int(11) NOT NULL PRIMARY KEY,
+  Pais varchar(30) NOT NULL,
+  Estado varchar(30) NOT NULL,
+  Municipio varchar(30) NOT NULL,
+  CodigoPostal int(11) NOT NULL
+);
+
+
+--
+-- Table structure for table `Grupos`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE Grupos  (
+  ID_Grupo varchar(20) NOT NULL PRIMARY KEY,
+  Turno varchar(20) NOT NULL,
+  Edificio varchar(2) NOT NULL,
+  Semestre int(11) NOT NULL);
+
+--
+-- Table structure for table `Materias`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE Materias(
+  ID_Materia varchar(20) NOT NULL  PRIMARY KEY ,
+  NombreM varchar(30) NOT NULL,
+  Creditos int(11) NOT NULL,
+  Unidades int(11) NOT NULL,
+  HorasTotales double NOT NULL);
+
+--
+-- Table structure for table `JefeDivision`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE JefeDivision (
+  ID_Jefe bigint(20) NOT NULL PRIMARY KEY ,
+  NombreJefe varchar(30) NOT NULL,
+  ApellidoPJ varchar(30) NOT NULL,
+  ApellidoMJ varchar(30) NOT NULL,
+  EstadoCivilJ varchar(30) NOT NULL,
+  EstudiosJ varchar(30) NOT NULL,
+  EmailJ varchar(50) NOT NULL,
+  DomicilioJ varchar(30) NOT NULL,
+  TelefonoJ varchar(15) NOT NULL,
+  GeneroJ char(1) NOT NULL,
+  FechaNacimientoJ date NOT NULL,
+  FechaIngresoJ date NOT NULL,
+  ID_Carrera varchar(20) NOT NULL,
+  ID_Direccion int(11) NOT NULL,
+  ContraseñaJ varchar(50) DEFAULT NULL,
+  FOREIGN KEY (ID_Carrera) REFERENCES Carreras(ID_Carrera) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (ID_Direccion) REFERENCES Direcciones(ID_Direccion) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+--
+-- Table structure for table `Docentes`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE Docentes (
+  ID_Docente bigint(20) NOT NULL PRIMARY KEY,
+  NombreD varchar(30) NOT NULL,
+  ApellidoPD varchar(30) NOT NULL,
+  ApellidoMD varchar(30) NOT NULL,
+  EstadoCivilD varchar(30) NOT NULL,
+  EstudiosD varchar(30) NOT NULL,
+  EmailD varchar(50) NOT NULL,
+  TelefonoD varchar(15) NOT NULL,
+  DomicilioD varchar(30) NOT NULL,
+  GeneroD char(1) NOT NULL,
+  FechaNacimientoD date NOT NULL,
+  FechaIngresoD date NOT NULL,
+  ID_Jefe bigint(20) NOT NULL,
+  ID_Direccion int(11) NOT NULL,
+  ContraseñaD varchar(50) DEFAULT NULL,
+  FOREIGN KEY (ID_Jefe) REFERENCES JefeDivision(ID_Jefe) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (ID_Direccion) REFERENCES Direcciones(ID_Direccion) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+
+--
+-- Table structure for table `Alumnos`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE Alumnos (
+  ID_Alumno bigint(20) NOT NULL  PRIMARY KEY,
+  NombreAlumno varchar(30) NOT NULL,
+  ApellidoPA varchar(30) NOT NULL,
+  ApellidoMA varchar(30) NOT NULL,
+  EstadoCivilA varchar(30) NOT NULL,
+  EmailA varchar(60) NOT NULL,
+  TelefonoA varchar(15) NOT NULL,
+  RegularA varchar(10) NOT NULL,
+  EstadoA varchar(10) NOT NULL,
+  DomicilioA varchar(30) NOT NULL,
+  GeneroA char(1) NOT NULL,
+  FechaNacimiento date NOT NULL,
+  FechaIngresoA date NOT NULL,
+  ID_Carrera varchar(20) NOT NULL,
+  ID_Direccion int(11) NOT NULL,
+  ID_Grupo varchar(15) DEFAULT NULL,
+  ContraseñaA varchar(50) DEFAULT NULL,
+  FOREIGN KEY (ID_Carrera) REFERENCES Carreras(ID_Carrera) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (ID_Direccion) REFERENCES Direcciones(ID_Direccion) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (ID_Grupo) REFERENCES Grupos(ID_Grupo) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+--
+-- Table structure for table `Calificacion`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE Calificacion (
+  ID_Alumno bigint(20) NOT NULL,
+  ID_Materia varchar(20) NOT NULL,
+  ID_Docente bigint(20) NOT NULL,
+  Unidad1 double DEFAULT NULL,
+  OportunidadU1 int(11) DEFAULT NULL,
+  Unidad2 double DEFAULT NULL,
+  OportunidadU2 int(11) DEFAULT NULL,
+  Unidad3 double DEFAULT NULL,
+  OportunidadU3 int(11) DEFAULT NULL,
+  Unidad4 double DEFAULT NULL,
+  OportunidadU4 int(11) DEFAULT NULL,
+  Unidad5 double DEFAULT NULL,
+  OportunidadU5 int(11) DEFAULT NULL,
+  Unidad6 double DEFAULT NULL,
+  OportunidadU6 int(11) DEFAULT NULL,
+  Promedio double NOT NULL,
+  SemestreC int(11) DEFAULT NULL,
+  FOREIGN KEY (ID_Alumno) REFERENCES Alumnos (ID_Alumno) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (ID_Materia) REFERENCES Materias(ID_Materia) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (ID_Docente) REFERENCES Docentes(ID_Docente) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+--
+-- Table structure for table `Clases`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE Clases (
+  ID_Clase varchar(10) NOT NULL PRIMARY KEY,
+  ID_Materia varchar(20) NOT NULL,
+  ID_Docente bigint(20) NOT NULL,
+  ID_Grupo varchar(20) NOT NULL,
+  FOREIGN KEY (ID_Grupo) REFERENCES Grupos(ID_Grupo) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (ID_Materia) REFERENCES Materias(ID_Materia) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (ID_Docente) REFERENCES Docentes(ID_Docente) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+--
+-- Table structure for table `Horario_Clases`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE Horario_Clases (
+  ID_Clase varchar(10) DEFAULT NULL,
+  Dia varchar(20) DEFAULT NULL,
+  HoraInicio varchar(20) DEFAULT NULL,
+  HoraFinal varchar(20) DEFAULT NULL,
+  FOREIGN KEY (ID_Clase) REFERENCES Clases(ID_Clase) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+--
+-- Table structure for table `SesionActual`
+-- Created with MySQL Version 10.4.17
+--
+
+CREATE TABLE SesionActual (
+  numero int(11) NOT NULL PRIMARY KEY,
+  Codigo bigint(20) DEFAULT NULL,
+);
+
+CREATE TABLE Eventos(
+	Indice integer, 
+	Fecha date, 
+	Hora varchar(10), 
+	Descripcion varchar(500)
+);
+
+
+INSERT INTO Eventos VALUES (1,'2021-06-23','1:00 PM','Conferencia, crisis en tiempos de pandemia');
+INSERT INTO Eventos VALUES (2,'2021-06-23','3:00 PM','Videoconferencia, microsoft y la innovacion');
+INSERT INTO Eventos VALUES (3,'2021-06-23','7:00 PM','Interconexion y las telecomunicaciones');}
+INSERT INTO Eventos VALUES (4,'2021-06-23','5:00 PM','Presentacion banda musical Tesjo');
+INSERT INTO Eventos VALUES (5,'2021-06-24','12:00 PM','Final futbol soccer varonil');
+INSERT INTO Eventos VALUES (6,'2021-06-24','1:00 PM','Conversatorio ¿Y ahora que? Carrera Ingenieria en sistemas');
+INSERT INTO Eventos VALUES (7,'2021-06-24','3:00 PM','Tecnologias de informacion en la actualidad, conferencia abierta');
+

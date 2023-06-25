@@ -1,0 +1,62 @@
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0101','Matutino','N',1);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0102','Matutino','N',2);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0103','Vespertino','N',1);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0301','Matutino','N',3);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0302','Matutino','N',3);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0303','Vespertino','N',3);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0501','Matutino','N',5);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0502','Matutino','N',5);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0503','Vespertino','N',5);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0701','Matutino','N',7);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0702','Matutino','N',7);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0703','Vespertino','N',7);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0901','Matutino','N',9);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IC-0902','Vespertino','N',9);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IA-101','Matutino','I',1);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IA-0102','Vespertino','I',1);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IA-0301','Matutino','I',3);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IA-0302','Vespertino','I',3);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IAC-0501','Matutino','I',5);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IA-0502','Vespertino','I',5);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IA-0701','Matutino','I',7);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IA-0702','Vespertino','I',7);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IA-0901','Matutino','I',9);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IA-0902','Vespertino','I',9);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IM-0101','Matutino','M',1);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IM-0102','Matutino','M',1);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IM-0103','Vespertino','M',1);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IM-0301','Matutino','M',3);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IM-0302','Matutino','M',3);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('IM-0303','Vespertino','M',3);
+INSERT INTO Grupos (ID_Grupo,Turno,Edificio,Semestre) 
+VALUES('EN ESPERA','-','-',1);

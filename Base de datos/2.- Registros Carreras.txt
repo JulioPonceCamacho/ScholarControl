@@ -1,0 +1,22 @@
+INSERT INTO Carreras 
+VALUES ('100IE', 'Ingenieria Electromecanica',9,45,250,'Formar profesionistas de excelencia en Ingeniería Electromecánica, con actitud emprendedora, liderazgo y capacidad de: analizar, diagnosticar, diseñar, seleccionar, instalar, administrar, mantener e innovar sistemas electromecánicos,','TESJO');
+INSERT INTO Carreras 
+VALUES ('200II', 'Ingenieria Industrial',9, 42,240,'Formar profesionales, éticos, líderes, creativos y emprendedores en el área de Ingeniería Industrial; competente para diseñar, implantar, administrar, innovar y optimizar sistemas de producción de bienes y servicios; con enfoque sistémico y sustentable en un entorno global. ','TESJO');
+INSERT INTO Carreras 
+VALUES ('300SC', 'Ingenieria en Sistemas Computacionales',9,53,260, 'Formar profesionistas  lideres  con visión  estratégica y  amplio  sentido  ética:capaz de diseñar,  desarrollar,  implementar  y administrar  tecnología  computacional','TESJO12');
+INSERT INTO Carreras 
+VALUES ('400IM', 'Ingenieria Mecatronica',9,54,270, 'Formar profesionistas con capacidad analítica, crítica e innovadora que le permita diseñar, proyectar, construir y administrar equipos y sistemas mecatrónicos en el sector social, productivo y de servicios; así como integrar, operar y mantenerlos, con un compromiso ético y de calidad en un marco de desarrollo sustentable. ','TESJO');
+INSERT INTO Carreras
+VALUES ('500A', 'Arquitectura',9, 50,245,'Formar profesionistas líderes con excelencia académica y humanística, capaces de planear diseñar, gestionar y construir el hábitat humano con alto desempeño y vocación de servicio a la sociedad','TESJO16');
+INSERT INTO Carreras 
+VALUES ('600CP', 'Contador Publico',9,48,240, 'Formar profesionales competitivos, capaces de diseñar, establecer, aplicar, controlar y evaluar sistemas de información financiera, administrativa y fiscal, dentro del marco legal vigente para la toma de decisiones de las entidades económicas nacionales e internacionales, con una actitud ética, crítica, emprendedora y de liderazgo','TESJO');
+INSERT INTO Carreras
+VALUES ('700GE', 'Ingenieria en Gestion Empresarial',9,45,250, 'Formar profesionales que contribuyan a la gestión de empresas e innovación de procesos; así como al diseño, implementación y desarrollo de sistemas estratégicos de negocios, optimizando recursos en un entorno global, con ética y responsabilidad social.','TESJO18');
+INSERT INTO Carreras 
+VALUES ('800IQ', 'Ingenieria Quimica',9,51,250, 'Formar profesionistas competentes para investigar, generar y aplicar el conocimiento científico y tecnológico, que le permita identificar y resolver problemas de diseño, operación, adaptación, optimización y administración en industrias químicas y de servicios, con calidad, seguridad, economía, usando racional y eficientemente los recursos naturales','TESJO');
+INSERT INTO Carreras 
+VALUES ('900IMA', 'Ingenieria en Materiales',9,45,245, 'Formar ingenieros en materiales, competentes, críticos con capacidad de liderazgo, éticos, actitud emprendedora y creativa para diseñar, simular, investigar, desarrollar, controlar, innovar y solucionar problemas en la ingeniería y tecnología de los materiales','TESJO20');
+INSERT INTO Carreras 
+VALUES ('1000ADEV', 'Ingenieria en Animacion Digital y Efectos Visuales',9,48,250, 'Formar profesionistas capaces de adaptar, desarrollar y aplicar recursos tecnológicos en la producción de animación digital y efectos visuales, impulsando la tecnología para responder a los desafíos de las industrias de la animación digital y los efectos visuales, en un contexto global, multidisciplinario y sustentable.','TESJO');
+INSERT INTO Carreras
+VALUES ('2000T', 'Licenciatura en Turismo',9,45,240, 'Formar profesionales competitivos, capaces de diseñar, establecer, aplicar, controlar y evaluar sistemas de información financiera, administrativa y fiscal, dentro del marco legal vigente para la toma de decisiones de las entidades económicas nacionales e internacionales, con una actitud ética, crítica, emprendedora y de liderazgo, a través de la investigación y el uso de la tecnología de la información y comunicaciones, fomentando el desarrollo sustentable.Formar profesionales en Turismo capaces de emprender','TESJO');

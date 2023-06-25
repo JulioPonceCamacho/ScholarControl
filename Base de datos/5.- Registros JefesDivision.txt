@@ -1,0 +1,26 @@
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150200,'Elizabeth','Garcia','Alcantara',7121231311,'Casado',1,'Ingenieria Electromecanica','div.electromecanica@tesjo.edu.mx','100IE','Calle 4 de marzo','F','1980-07-11','2005-10-05','1111');
+
+
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150887,'Felipe','Santamaria','Ramos',7121231320,'Casado',2,'Ingenieria Industrial','felipe.santamaria@tesjo.edu.mx','200II','Calle 5 de abril','M','1970-02-12','2010-11-05','1111');
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150903,'Hector','Hernandez','Garcia',7228523712,'Casado',3,'Ingenieria en sistemasComputacionales','hector.garcia@tesjo.edu.mx','300SC','Calle 4 de noviembre','M','1975-11-12','2010-10-05','1111');
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150188,'Eduardo','Ortega','Nava',7224563350,'Casado',4,'Ingenieria Mecatronica','eduardo.ortega@tesjo.edu.mx','400IM','Calle 4 de marzo','M','1980-07-11','2005-10-05','1111');
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150209,'Jesus Manuel','Paz','Delgado',722853341,'Casado',5,'Arquitectura','jesus.paz@tesjo.edu.mx','500A','Calle 4 de marzo','M','1980-07-11','2005-10-05','1111');
+INSERT INTO JefeDivision ((ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150134,'Luis Antonio','Cano','Vargas',721234560,'Casado',6,'Contador Publico','luis.cano@tesjo.edu.mx','600CP','Calle 4 de marzo','M','1980-07-11','2005-10-05','1111');
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150098,'Sergio','Hernandez','Quiroga',7221231234,'Casado',7,'Ing.Gestion Empresarial ','div.gestion@tesjo.edu.mx','700GE','Calle 4 de Abril','M','1980-07-11','2010-11-05','1111');
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150123,'Gloria Veronica','Ruelas','Gallardo',7228523734,'Casado',8,'Ingenieria Quimica','gloria.ruelas@tesjo.edu.mx','800IQ','Calle 4 de Enero','F','1985-02-16','2015-05-07','1111');
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150567,'Azucena','Gallardo','Alva',7214565678,'Casado',9,'Ingenieria en Materiales','azucena.garduño@tesjo.edu.mx','900IMA','Calle 4 de Mayo','F','1975-01-20','2010-11-05','1111');
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150189,'Hector','Hernandez','Garcia',7228523712,'Casado',10,'Ingenieria Animacion Digital y Efectos Visuales','Hector.Hern@tesjo.edu.mx','1000ADEV','Calle 4 de noviembre','M','1975-11-12','2010-10-05','1111');
+INSERT INTO JefeDivision (ID_Jefe,NombreJefe,ApellidoPJ,ApellidoMJ,TelefonoJ,EstadoCivilJ,ID_Direccion,EstudiosJ,EmailJ,ID_Carrera,DomicilioJ,GeneroJ,FechaNacimientoJ,FechaIngresoJ, ContraseñaJ)
+VALUES(2010480150211,'Gloria Veronica','Ruelas','Gallardo',7228523734,'Casado',11,'Turismo','gloria.ruelas@tesjo.edu.mx','2000T','Calle 4 de septiembre','F','1990-03-15','2011-11-01','1111');
+
+

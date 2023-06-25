@@ -1,0 +1,60 @@
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('ACF-0901','Calculo Diferencial', 4, 5, 48);
+INSERT INTO Materias (ID_Materia, Nombre, Creditos, Unidades, HorasTotales)
+VALUES('AED-1285','Fundamentos de Programación', 4, 5, 50);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('ACA-0907','Taller de Etica', 5, 5, 35);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('AEF-1041','Matematicas Discretas', 4, 6, 45);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCH-1024','Taller de Administracion', 5, 5, 40);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('ACC-0906','Fundamentos de Investigacion', 4, 6, 32);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('ACF-0902','Calculo Integral', 3, 6, 40);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('ACF-0904','Calculo Vectorial', 5, 6, 45);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('ACF-0905','Ecuaciones Diferenciales', 4, 5, 45);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('AED-1286','Programacion Orientada a Objetos', 5, 6, 50);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('AED-1026','Estrucutura de Datos', 4, 5,48);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('AED-1017','Métodos Numericos', 5, 5, 39);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('AEC-1008','Contabilidad Financiera', 4, 4, 35);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCC-1005','Cultura Empresiaral', 5, 4, 35);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCD-1027','Topicos Avanzados de Programacion',6, 6, 48);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('AEC-1058','Quimica', 2, 5, 40);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCC-1013','Investigacion de Operaciones', 5, 5, 45);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('AEF-1031','Fundamentos de Base de Datos', 3, 5, 40);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('ACF-0903','Algebra Lineal', 3, 5, 40);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('ACD-0908','Desarrollo Sustentable', 4, 6, 35);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCD-1022','Simulación', 2, 6, 45);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('AEF-1052','Probabilidad y Estadistica', 3, 5, 45);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCF-1006','Fisica Genral', 3, 6, 45);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCD-.1018','Principios Electricos y Aplicaciones Digitales', 2, 5, 47);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCD-1015','Lenguajes y Automatas 1', 5, 6, 52);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCD-1016','Lenguajes y Automatas 2', 5, 5, 51);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCC-1019','Programación Logica y Funcional', 5, 6, 47);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCD-1021','Redes de Computadoras', 4, 5, 45);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCD-1004','Conmutacion y Enrudamiento de Redes de Datos', 2, 6, 35);
+INSERT INTO Materias (ID_Materia, NombreM, Creditos, Unidades, HorasTotales)
+VALUES('SCA-1002','Administración de Redes', 5, 4, 42);

@@ -1,0 +1,73 @@
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480788,201516044821,'ACC-0906',90,1,95,1,90,1,85,1,95,1,92,1, 91.16,1);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480788,201516013085,'ACA-0907',88,1,95,1,90,1,90,1,98,1,null,null,92.2,1);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480788,201516021015,'SCH-1024',90,1,88,1,90,1,92,1,90,1,null,null,90,1);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480788,201516022829,'AEF-1041',86,1,70,1,80,1,87,1,86,1,81,1,87,1);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480788,201516013085,'ACF-0901',90,1,95,1,90,1,85,1,95,1,null,null,92,1);
+
+
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480915,2015786921,'ACF-0902',90,1,85,1,88,1,85,1,89,1,90,1,89);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480915,2014786926,'ACF-0903',90,1,95,1,100,1,89,1,90,1null,null,96);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480915,2017786927,'AEC-1008',90,1,80,1,85,1,90,1null,null,null,null,88);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480915,2015786928,'AEC-1058',90,1,82,1,92,1,95,1,90,1,null,null,93);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2018150480915,2014786923,'AEF-1052',92,1,91,1,88,1,95,1,90,1,null,null,94);
+
+
+
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2017150480550,2013786922,'ACD-0908',90,1,92,1,95,1,90,1,100,1,95,1,95);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2017150480550,2015786921,'ACF-0904',88,1,87,1,90,1,95,1,98,1,95,1,91);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2017150480550,2012786930,'AED-1026',85,1,72,1,88,1,91,1,95,1,null,null,88);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2017150480550,2016786925,'SCC-1005',85,1,90,1,95,1,98,1,null,null,null,null,93);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2017150480550,2015786931,'SCC-1013',70,1,85,1,92,1,80,1,90,1,null,null,92);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio, SemestreC)
+VALUES(2017150480550,2015786921,'SCF-1006',88,1,89,1,88,1,95,1,95,1,90,1,91);
+
+
+
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio)
+VALUES(2017150480825,2015786921,'ACF-0905',90,1,85,1,86,1,90,1,95,1,null,null,88);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio)
+VALUES(2017150480825,2014786923,'AED-1017',90,1,88,1,89,1,90,1,92,1,null,null,89);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio)
+VALUES(2017150480825,2012786930,'AEF-1031',82,1,72,1,85,1,90,1,92,1,null,null,91);
+
+INSERT INTO Calificacion(ID_Alumno,ID_Docente,ID_Materia, Unidad1,OportunidadU1,Unidad2,OportunidadU2,Unidad3,OportunidadU3,Unidad4,OportunidadU4,Unidad5,OportunidadU5,Unidad6,OportunidadU6,Promedio)
+VALUES(2017150480825,2014786932,'SCD-1022',92,1,90,1,90,1,88,1,95,1,96,1,93);
+
+
+
+
+
+

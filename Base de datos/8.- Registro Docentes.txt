@@ -1,0 +1,89 @@
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516044821,'Adriana','Reyes','Nava',1,712371877,'adriana.reyes@tesjo.edu.mx','Soltero','Maestria en Telecomunicaciones',2010480150903,'Calle san francisco','F','1990-05-05','2015-07-15','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516029032,'Jose','Pedraza','Guzman',2,7121234567,'JosePedraza@tesjo.edu.mx','Soltero','Maestro de Matematicas',2010480150209,'Calle 1 de enero','M','1985-01-15','2010-11-05','2222');
+
+INSERT ISELECYNTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516028823,'Daniel','Gomez','Colin',3,712371888,'daniel_pedraza@tesjo.edu.mx','Casado','Maestria en Programacion',2010480150189,'Calle 2 de febrero','M','1982-01-11','2015-12-06','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516027564,'Isabel','Monrroy','Morales',4,7121273467,'Isa_Monrroy@tesjo.edu.mx','Soltera','Ingeniera Quimica',2010480150209,'Calle 3 marzo','F','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516026825,'Itzel','Jimenez','Hernandez',5,7120268537,'ItzelJimHer@tesjo.edu.mx','Soltera','Licenciada en Administracion',2010480150567,'Calle 4 de marzo','F','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516025036,'Fernanda','Alcauter','Guzman',6,7121234500,'Fer_Guz@tesjo.edu.mx','Soltera','Maestra de Etica',2010480150209,'Calle 4 de abril','F','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516024827,'Alejandra','Hernandez','Mendoza',7,7125598712,'Alejandra_Her_Mendoza@tesjo.edu.mx','Casada','Licenciatura en Contaduria',2010480150567,'Calle 5 de mayo','F','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516023038,'Jacob','Luna','Miranda',8,7125670098,'Jabob_Lun@tesjo.edu.mx','Soltero','Maestro de Programacion',2010480150567,'Calle 6 de junio','M','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516022829,'Alejandro','Hinojosa','Perez',9,7122344367,'Saul_Hinohosa@tesjo.edu.mx','Soltero','ingeniero en sistemas',2010480150567,'Calle 7 de julio','M','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516021015,'Alexis','Jimenez','Hernandez',10,7293651319,'Alexis_Jimenez_Her@tesjo.edu.mx','Soltero','Ingeniero en sistemas',2010480150189,'Calle 8 de agosto','M','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516020814,'Adrian','Velazquez','Perez',11,7120192837,'Adrian.Vel@tesjo.edu.mx','Soltero','Maestro en informatica',2010480150209,'Calle 9 de septiembre','M','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516019025,'Pamela','Perez','Perez',12,7126753444,'Pamela_Perez_Perez@tesjo.edu.mx','Soltero','Licenciada en Finanzas',2010480150567,'Calle 10 de octubre','F','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516018834,'Armando','Hernandez','Zoria',13,7122331237,'Armando_Jim_Zoria@tesjo.edu.mx','Soltero','Maestro en Comunicaciones',2010480150189,'Calle 11 noviembre','M','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516017045,'Carlos','Monrroy','Sosa',14,7129987986,'Carlos_Mon.Sosa@tesjo.edu.mx','Soltero','Maestro de Matematicas',2010480150098,'Calle 12 de diciembre','M','1980-07-11','2005-10-05','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516016854,'Anayeli','Luna','Leal',15,7124545634,'Naye_Luna@tesjo.edu.mx','Soltero','Ingeniera en Mecatronica',2010480150123,'Calle 13','F','1987-07-17','2007-07-07','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516015065,'Marco','Gutierrez','Cruz',16,72912345678,'Marco.Gutierrez@tesjo.edu.mx','Soltero','Licenciado en Administracion',2010480150189,'Calle 14','M','1986-06-16','2006-10-06','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516014874,'Juan','Suarez','Sanchez',17,7129877890,'Juan.Suarez@tesjo.edu.mx','Casado','Licenciado en Contaduria',2010480150098,'Santo domingo','M','1985-05-15','2005-05-05','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516013085,'Leopoldo','Gil','Antonio',18,5585409213,'Gil_Antonio@tesjo.edu.mx','Casado','Doctor en Comunicaciones',2010480150098,'Calle 15','M','1984-04-14','2004-04-04','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD)VALUES
+(201516012894,'Luis','Hernandez','Cruz',19,7127753339,'Luis.HerCruz@tesjo.edu.mx','Soltero','Mestro en Programacion',2010480150123,'Calle 16','M','1983-07-13','2003-01-03','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516011135,'Mauricio','Contreras','Guzman',20,7122288091,'Mau.Contreras.G@tesjo.edu.mx','Soltero','Maestro de Etica',2010480150123,'Calle 17','M','1982-02-12','2012-12-02','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516010224,'Gustavo','Flores','Alva',21,7125564003,'Gustavo.Flores@tesjo.edu.mx','Soltero','Licenciado en Gestion Empresarial',2010480150189,'Calle 18','M','1982-01-12','2011-11-01','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516049235,'Jorge','Hernandez','Jimenez',22,7126667212,'Jorge.her.jim@tesjo.edu.mx','Casado','Ingeniero en Programacion',2010480150567,'Calle 19','M','1968-01-12','2003-12-01','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516048824,'Alonso','Navarro','Colin',23,7293320979,'Alonso.Nava@tesjo.edu.mx','Soltero','Maestria en Telecomunicaciones',2010480150201,'Calle 20','M','1975-12-12','2006-11-01','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516047035,'Erick','Colin','Jimenez',24,7299908790,'ErickJim_Colin@tesjo.edu.mx','Soltero','Maestro de Matematicas',2010480150567,'Calle 21','M','1973-11-11','2005-11-06','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516046824,'Alverto','Contreras','Nava',25,7290014567,'AlvertoCont.Nava@tesjo.edu.mx','Soltero','Maestroen Programacion',2010480150189,'Calle 22','M','1974-08-11','2004-12-05','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516045035,'Arturo','Carrazco','Perez',26,729667409,'Arturo.Perez@tesjo.edu.mx','Soltero','Ingeniero en Robotica',2010480150201,'Calle 23','M','1973-02-11','2003-12-15','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516043824,'Andrea','Contreras','Nava',27,7122312342,'andrea.cont.Nava@tesjo.edu.mx','Soltero','Maestra en turismo',2010480150098,'Calle 24','F','1972-01-13','2002-12-14','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516043035,'Enrique','Hernandez','Suarez',28,7122201417,'Enrique_Her.Suarez@tesjo.edu.mx','Soltero','Maestro en Turismo',2010480150123,'Calle 25','M','1971-02-21','2001-07-07','2222');
+
+INSERT INTO Docentes (ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516042824,'Hector','Jimenez','Hernandez',29,712371877,'Hector.Jim_Her@tesjo.edu.mx','Casado','Licenciatura en Telecomunicaciones',2010480150201,'Calle 26','M','1970-01-11','2000-07-11','2222');
+
+INSERT INTO Docentes(ID_Docente, NombreD, ApellidoPD,ApellidoMD, ID_Direccion, TelefonoD,EmailD,EstadoCivilD,EstudiosD, ID_Jefe, DomicilioD, GeneroD ,FechaNacimientoD,FechaIngresoD,ContraseñaD) VALUES
+(201516041035,'Sofia','Hernandez','Contreras',30,7298806677,'Sofia.hernanadez.Cont@tesjo.edu.mx','Soltero','Maestra de Matematicas',2010480150201,'Calle 27','F','1985-01-12','2000-11-01','2222');

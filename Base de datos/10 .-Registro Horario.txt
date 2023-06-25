@@ -1,0 +1,104 @@
+INSERT INTO Clases VALUES ('A01','SCD-1021',201516013085,'IC-0502');
+INSERT INTO Clases VALUES ('A02','SCD-1021',201516023038,'IM-0303');
+INSERT INTO Clases VALUES ('A03','SCD-1021',201516044821,'IC-0501');
+
+
+
+INSERT INTO Horario_Clases
+VALUES ('A01','Lunes', '07:00','09:00');
+INSERT INTO Horario_Clases
+VALUES ('A01','Martes', '13:00', '15:00');
+INSERT INTO Horario_Clases
+VALUES ('A01','Miercoles','11:00','13:00');
+
+
+INSERT INTO Horario_Clases
+VALUES ('A02','Lunes','09:00','11:00');
+INSERT INTO Horario_Clases
+VALUES ('A02','Martes', '15:00','17:00');
+INSERT INTO Horario_Clases
+VALUES ('A02','Viernes','15:00', '17:00');
+
+
+INSERT INTO Horario_Clases
+VALUES ('A03','Lunes','11:00','13:00');
+INSERT INTO Horario_Clases
+VALUES ('A03','Miercoles', '13:00','15:00');
+INSERT INTO Horario_Clases
+VALUES ('A03','Martes', '17:00','19:00');
+
+INSERT INTO Horario_Clases
+VALUES ('A05','Lunes','11:00','13:00');
+INSERT INTO Horario_Clases
+VALUES ('A05','Jueves', '13:00','15:00');
+INSERT INTO Horario_Clases
+VALUES ('A05','Viernes', '17:00','19:00');
+
+
+INSERT INTO Horario_Clases
+VALUES ('A04','Lunes','13:00','15:00');
+INSERT INTO Horario_Clases
+VALUES ('A04','Viernes','13:00','15:00');
+
+
+INSERT INTO Horario_Clases
+VALUES ('A05','Lunes', TO_DATE('15:00', 'HH24:MI'),TO_DATE('17:00', 'HH24:MI'));
+INSERT INTO Horario_Clases
+VALUES ('A05','Lunes', TO_DATE('17:00', 'HH24:MI'),TO_DATE('19:00', 'HH24:MI'));
+INSERT INTO Horario_Clases
+VALUES ('A05','Martes', TO_DATE('07:00', 'HH24:MI'),TO_DATE('09:00', 'HH24:MI'));
+INSERT INTO Horario_Clases
+VALUES ('A05','Martes', TO_DATE('09:00', 'HH24:MI'),TO_DATE('11:00', 'HH24:MI'));
+INSERT INTO Horario_Clases
+VALUES ('A05','Martes', TO_DATE('11:00', 'HH24:MI'),TO_DATE('13:00', 'HH24:MI'));
+
+
+
+
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A06','Miercoles', TO_DATE('07:00', 'HH24:MI'),TO_DATE('09:00', 'HH24:MI'));
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A06','Jueves', TO_DATE('13:00', 'HH24:MI'),TO_DATE('15:00', 'HH24:MI'));
+
+
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A10','Miercoles', TO_DATE('09:00', 'HH24:MI'),TO_DATE('11:00', 'HH24:MI'));
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A10','Jueves', TO_DATE('15:00', 'HH24:MI'),TO_DATE('16:00', 'HH24:MI'));
+
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A15','Miercoles', TO_DATE('15:00', 'HH24:MI'),TO_DATE('17:00', 'HH24:MI'));
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A15','Jueves', TO_DATE('09:00', 'HH24:MI'),TO_DATE('11:00', 'HH24:MI'));
+
+
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A21','Miercoles', TO_DATE('17:00', 'HH24:MI'),TO_DATE('19:00', 'HH24:MI'));
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A21','Jueves', TO_DATE('07:00', 'HH24:MI'),TO_DATE('08:00', 'HH24:MI'));
+
+
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A22','Jueves', TO_DATE('08:00', 'HH24:MI'),TO_DATE('09:00', 'HH24:MI'));
+
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A23','Jueves', TO_DATE('16:00', 'HH24:MI'),TO_DATE('17:00', 'HH24:MI'));
+
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A24','Jueves', TO_DATE('17:00', 'HH24:MI'),TO_DATE('19:00', 'HH24:MI'));
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A24','Viernes', TO_DATE('09:00', 'HH24:MI'),TO_DATE('11:00', 'HH24:MI'));
+
+
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A25','Jueves', TO_DATE('11:00', 'HH24:MI'),TO_DATE('13:00', 'HH24:MI'));
+INSERT INTO Horario(ID_Horario, DiaSemana, HoraEntrada, HoraSalida)
+VALUES ('A25','Viernes', TO_DATE('11:00', 'HH24:MI'),TO_DATE('13:00', 'HH24:MI'));
+
+
+
+INSERT INTO Clases VALUES('A02','SCD-1021',201516044085,'IC-0501');
+INSERT INTO Clases VALUES('A03','SCD-1015',201516044814,'IC-0501');
+INSERT INTO Clases VALUES('A04','SCA-1002',201516044829,'IC-0501');
+
+
